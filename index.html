@@ -1948,7 +1948,7 @@ function renderSurveyHTML(m){
       <span class="sv-ico"></span>
       <span class="sv-title">问卷 · ${qs.length} 道题</span>
       <span class="sv-status${answered ? ' done' : ''}">${
-        answered ? '<span class="sv-check"></span>对方已作答' : '待作答'
+        answered ? '对方已作答' : '待作答'
       }</span>
     </div>`;
   const body = qs.map((q, qi) => {
